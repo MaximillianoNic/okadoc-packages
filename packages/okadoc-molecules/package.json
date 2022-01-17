@@ -1,0 +1,27 @@
+{
+  "name": "@okadoc/ui-molecules",
+  "version": "0.0.2",
+  "description": "Okadoc Package molecules",
+  "author": "MaximillianoNic <maximilliano@okadoc.com>",
+  "homepage": "https://github.com/MaximillianoNic/okadoc-packages#readme",
+  "license": "ISC",
+  "main": "lib/okadoc-molecules.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximillianoNic/okadoc-packages.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/MaximillianoNic/okadoc-packages/issues"
+  },
+  "gitHead": "12d97314b57ecbbb678e48dcaef3d4bd576948a9"
+}
