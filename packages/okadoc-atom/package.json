@@ -1,12 +1,12 @@
 {
   "name": "@okadoc/ui-atom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Okadoc UI",
   "author": "MaximillianoNic <maximilliano@okadoc.com>",
   "homepage": "https://github.com/MaximillianoNic/okadoc-packages#readme",
   "license": "ISC",
-  "main": "lib/okadoc-atom.js",
-  "types": "lib/okadoc-atom.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -29,5 +29,5 @@
     "react": ">= 16.8.0 < 17",
     "react-dom": ">= 16.8.0 < 17"
   },
-  "gitHead": "6bb12f1984af2e37a60bed1fb39dfb9832bf86e4"
+  "gitHead": "c194b43db5d93d4794c98141b932d257b0e9a3cc"
 }
