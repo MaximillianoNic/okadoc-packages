@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "scripts": {
+    "publish": "lerna run tsc && lerna publish"
+  },
+  "command": {
+    "publish": {
+      "registry": "http://localhost:4873"
+    }
+  }
+}
