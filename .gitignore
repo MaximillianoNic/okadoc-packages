@@ -103,6 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-./packages/okadoc-atom/lib
-./packages/okadoc-molecules/lib
+/packages/okadoc-atom/lib/*
+/packages/okadoc-molecules/lib/*
 .npmrc

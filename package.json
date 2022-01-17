@@ -24,7 +24,7 @@
   },
   "scripts": {
     "prebuild": "rm -rf ./packages/*/dist/",
-    "publish:dev": "lerna publish --canary --skip-git --skip-npm --no-git-tag-version --no-push --force-publish=* --registry http://localhost:4873/"
+    "publish:dev": "lerna run tsc && lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\""
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
