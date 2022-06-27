@@ -24,6 +24,7 @@
   },
   "scripts": {
     "prebuild": "rm -rf ./packages/*/dist/",
+    "build": "lerna run tsc",
     "publish:dev": "lerna run tsc && lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\""
   },
   "publishConfig": {
