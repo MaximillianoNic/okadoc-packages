@@ -1,6 +1,6 @@
 {
   "name": "@okadoc/ui-molecules",
-  "version": "0.0.2-canary.0",
+  "version": "0.0.0",
   "description": "Okadoc Package molecules",
   "author": "MaximillianoNic <maximilliano@okadoc.com>",
   "homepage": "https://github.com/MaximillianoNic/okadoc-packages#readme",
@@ -25,7 +25,7 @@
     "url": "https://github.com/MaximillianoNic/okadoc-packages/issues"
   },
   "dependencies": {
-    "@okadoc/ui-atom": "^0.0.3-canary.0"
+    "@okadoc/ui-atom": "^0.0.0"
   },
   "gitHead": "6bb12f1984af2e37a60bed1fb39dfb9832bf86e4"
 }
