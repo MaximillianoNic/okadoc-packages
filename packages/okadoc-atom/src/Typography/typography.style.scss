@@ -1,0 +1,16 @@
+* {
+  font-family: NunitoSans;
+}
+
+.heading {
+  line-height: 1.57;
+  color: #363d45;
+
+  &__h1 {
+    font-size: 72px;
+  }
+
+  &__h2 {
+    font-size: 56px;
+  }
+}
