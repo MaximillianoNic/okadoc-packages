@@ -1,6 +1,6 @@
 {
   "name": "@okadoc/ui-molecules",
-  "version": "0.0.1",
+  "version": "0.0.2-canary.0",
   "description": "Okadoc Package molecules",
   "author": "MaximillianoNic <maximilliano@okadoc.com>",
   "homepage": "https://github.com/MaximillianoNic/okadoc-packages#readme",
@@ -18,10 +18,14 @@
     "url": "git+https://github.com/MaximillianoNic/okadoc-packages.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/MaximillianoNic/okadoc-packages/issues"
+  },
+  "dependencies": {
+    "@okadoc/ui-atom": "^0.0.3-canary.0"
   },
   "gitHead": "6bb12f1984af2e37a60bed1fb39dfb9832bf86e4"
 }
