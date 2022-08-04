@@ -35,15 +35,13 @@
     "babel-core": "^7.0.0-bridge.0"
   },
   "scripts": {
-    "prebuild": "rm -rf ./packages/*/dist/",
-    "build": "lerna run tsc",
+    "prebuild": "rm -rf ./packages/*/lib/",
     "dev": "turbo run dev --parallel",
     "test": "turbo run test",
-    "turbo:build": "turbo run tsc",
-    "prepublish": "lerna run prepublish",
-    "publish:dev": "yarn turbo:build && lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\"",
+    "build": "turbo run tsc",
+    "publish-dev": "yarn turbo:build && lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\"",
     "publish-canary": "lerna version prerelease --preid canary --force-publish",
-    "publish-stable": "lerna version --force-publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\" && release",
+    "publish-stable": "yarn turbo:build && lerna publish",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
