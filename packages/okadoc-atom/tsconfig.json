@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "baseUrl": ".",
     "outDir": "./lib",
     "module": "CommonJS",
@@ -21,10 +22,11 @@
     "noUnusedLocals": false,
     "declaration": true,
     "declarationMap": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
-    "./src"
+    "./src",
+    "declarations.d.ts"
   ],
   "exclude": [
     "lib",

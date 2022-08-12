@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 import Pallete from '../Pallete';
 
+import './styles.module.scss';
+
 const VARIANTS = {
   'primary-green': Pallete.primary.NiagaraGreen,
 }
@@ -10,9 +12,12 @@ interface IButton {
   children: React.ReactNode; // 👈️ type children
 }
 
-const Button: FC<IButton> = ({ children, variant }) => {
+export const Button: FC<IButton> = ({ children, variant }) => {
+  const buttonClass = `btn ${variant === 'primary-green' ? 'primary' : '' }`;
+
   return (
     <button
+      className={buttonClass}
       style={{
         backgroundColor: VARIANTS[variant]
       }}
@@ -21,5 +26,3 @@ const Button: FC<IButton> = ({ children, variant }) => {
     </button>
   )
 }
-
-export default Button;
