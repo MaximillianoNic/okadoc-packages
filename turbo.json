@@ -15,6 +15,12 @@
         "lib/**"
       ]
     },
+    "tsccss": {
+      "dependsOn": ["^tsccss"],
+      "outputs": [
+        "lib/**"
+      ]
+    },
     "dev": {
       "cache": false
     }

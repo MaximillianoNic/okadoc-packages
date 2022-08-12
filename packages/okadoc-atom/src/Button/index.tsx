@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Pallete from '../Pallete';
 
-import './button.style.scss';
+import './styles.module.scss';
 
 const VARIANTS = {
   'primary-green': Pallete.primary.NiagaraGreen,

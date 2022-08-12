@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "tsc": "tsc"
+    "tsc": "tsc -p tsconfig.json && tsccss -o ./lib && yarn build:scss",
+    "build:scss": "node-sass src -o lib"
   },
   "bugs": {
     "url": "https://github.com/MaximillianoNic/okadoc-packages/issues"
@@ -29,5 +30,9 @@
     "react": ">= 16.8.0 < 17",
     "react-dom": ">= 16.8.0 < 17"
   },
-  "gitHead": "7ac8bd8cd62ec48153c8b8daa0383eee2d5279d6"
+  "gitHead": "7ac8bd8cd62ec48153c8b8daa0383eee2d5279d6",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
 }

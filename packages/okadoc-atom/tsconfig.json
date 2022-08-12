@@ -1,9 +1,10 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "baseUrl": ".",
     "outDir": "./lib",
-    "module": "CommonJS",
+    "module": "ESNext",
     "target": "es5",
     "lib": ["es6", "dom"],
     "sourceMap": true,
@@ -21,10 +22,11 @@
     "noUnusedLocals": false,
     "declaration": true,
     "declarationMap": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
-    "./src"
+    "./src",
+    "declarations.d.ts"
   ],
   "exclude": [
     "lib",
