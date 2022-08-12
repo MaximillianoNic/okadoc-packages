@@ -1,11 +1,14 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import Button from '../packages/okadoc-atom/src/Button';
+import { Button } from '../packages/okadoc-atom/src/Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: 'Okadoc/Atomic/Button',
   component: Button,
+  parameters: {
+    layout: 'centered',
+  },
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     variant: {

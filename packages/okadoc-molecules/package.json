@@ -25,7 +25,7 @@
     "url": "https://github.com/MaximillianoNic/okadoc-packages/issues"
   },
   "dependencies": {
-    "@okadoc/ui-atom": "^0.0.0"
+    "@okadoc/ui-atom": "^0.0.5-alpha.0"
   },
-  "gitHead": "6bb12f1984af2e37a60bed1fb39dfb9832bf86e4"
+  "gitHead": "7ac8bd8cd62ec48153c8b8daa0383eee2d5279d6"
 }

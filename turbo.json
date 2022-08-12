@@ -3,14 +3,17 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
+      "outputs": ["lib/**"]
     },
     "test": {
       "dependsOn": ["^test"],
       "outputs": []
     },
     "tsc": {
-      "dependsOn": ["^tsc"]
+      "dependsOn": ["^tsc"],
+      "outputs": [
+        "lib/**"
+      ]
     },
     "dev": {
       "cache": false
